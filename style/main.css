@@ -133,6 +133,26 @@ body {
   left: 30%;
 }
 
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-picture {
+  width: 200px; /* Adjust as needed */
+  height: 120px; /* Adjust as needed */
+}
+
+.hat-n {
+  position: absolute;
+  top: -150px; /* Adjust to position the hat */
+  left: 25%;
+  transform: translateX(-50%);
+  width: 30px; /* Adjust as needed */
+}
+
+
 .seven, .eight {
   height: 100vh;
   position: fixed;
